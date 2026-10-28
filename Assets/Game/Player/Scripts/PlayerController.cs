@@ -39,8 +39,7 @@ public class PlayerController : MonoBehaviour
     }
     public void InteractuarObject(CallbackContext context)
     {
-        interaction.TryDragObject();
-        Debug.Log("Press tecla E");
+        interaction.TryInteract();
     }
 
     private void Update()
@@ -65,6 +64,6 @@ public class PlayerController : MonoBehaviour
 
     //        }
     //    }
-        
+
     //}
 }
